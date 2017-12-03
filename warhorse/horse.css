@@ -6,24 +6,8 @@ body{
 	padding-top: 50px;
 	text-align: center;
 	font-family: Raleway;
-	position: relative;
+	background: #444444;
 	height: 100%;
-}
-body:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background: url("Landing page image clear.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    -webkit-background-size:cover; 
-    -moz-background-size:cover; 
-    height: 100%;
-    opacity: 0.5;
 }
 
 #up-front{
@@ -32,17 +16,13 @@ body:before {
 	margin-top: 10px;
 	padding-bottom:25px;
 	letter-spacing: -.05em;
-	position: relative; 
-    z-index: 2;
     width: 85%;
 }
 #bottom-text{
 	font-size: 23px;
 	margin-top: 10%;
 	color:rgb(239,230,62);
-	position: relative;
 	font-weight: bold; 
-    z-index: 2;
 }
 a{
 	color: inherit;
@@ -71,8 +51,4 @@ img{
     	font-size: 80%;
     }
 }
-@media only screen and (max-height: 575px){
-	html{
-		height: auto;
-	}
-}
+
