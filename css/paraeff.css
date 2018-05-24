@@ -61,6 +61,7 @@
 	}
 	/* balloon */
 	#bg3-1 {
+		display: none;
 		position: absolute;
 		top: 2354px;
 		left: 685px;

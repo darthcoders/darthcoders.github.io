@@ -8,7 +8,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Open Sans', sans-serif;
-    background-color: #ca4c5d;
+    background-color: #66a6ff;
 }
 
 /* FLOAT, ALIGN AND WIDTH STYLES */
@@ -59,8 +59,10 @@ body{
     transition-delay: 0.4s!important;
 }
 .name:before{
-    content:"Dynamic \A Factory";
+    content:"PANACEA \A HOLISTIC";
     white-space: pre;
+    font-weight: 700;
+    letter-spacing: px;
 }
 .n_active{
     left:390px;
@@ -177,28 +179,28 @@ p.mid a:hover {
     color: white;
 }
 .logo_on_body {
-    color: #E45064;
+    color: #66a6ff;
 }
 .dyff_color_text {
-    color: #f8696d !important;
+    color: #89f7fe !important;
 }
 a:visited {
-    color: #E45064;
+    color: #66a6ff;
 }
 .dyff_color_background {
-    background-color: #E45064 !important;
+    background-color: #66a6ff !important;
 }
 .dyff_color_overlay {
     background-color: rgba(148, 65, 76, 0.35) !important;
 }
 .dyff_border_color{
-    border-color: #E45064 !important;
+    border-color: #66a6ff !important;
 }
 a.reverse:hover {
-    color: #E45064 !important;
+    color: #66a6ff !important;
 }
 .dyff_outline_color {
-    outline-color: #E45064;
+    outline-color: #66a6ff;
 }
 
 
@@ -691,7 +693,7 @@ a.reverse:hover {
     position: absolute;
     width:100%;
     height:100vh;
-    background-image: url(../img/back/background.jpg);
+    /*background-image: url(../img/back/background.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -741,7 +743,7 @@ a.reverse:hover {
     font-weight: 300;
     padding-left: 40px;
     color:#fff;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 50px;
 }
 .leftm_active .bottom_menu_block{

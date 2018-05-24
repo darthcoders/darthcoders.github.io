@@ -80,7 +80,7 @@ a:hover,a:focus,a:active,
 .comment-reply,
 .contact-details ul.info .icon,
 footer a{
-  color: #f3474b;
+  color: #66a6ff;
 }
 
 .btn.btn-info:hover,
@@ -99,7 +99,7 @@ ul.author-social li a:hover,
 ul.author-social li a:focus,
 ul.author-social li a:active,
 .viewbox .panel {
-  background-color: #f3474b;
+  background-color: #66a6ff;
 }
 
 .main-nav>ul>li.active>a:before,
@@ -124,7 +124,7 @@ ul.pagination>li.active>a,
 .post-caption .post-tag,
 .team-slider-thumb .thumb:after,
 .footer-logo{
-  background: #f3474b;
+  background: #66a6ff;
 }
 
 .btn.btn-info-major,
@@ -138,7 +138,7 @@ ul.pagination>li.active>a,
 .btn.btn-border,
 .featured-posts-slider .customnav>span:hover,
 .team-slider-v2 .owl-dot span{
-  border-color: #f3474b;
+  border-color: #66a6ff;
 }
 
 .pricing-table-v2:hover .price-heading .icon i,
@@ -148,24 +148,24 @@ ul.pagination>li.active>a,
 }
 
 .major-color{
-  color: #f3474b !important;
+  color: #66a6ff !important;
 }
 
 blockquote {
-  border-left-color: #f3474b;
+  border-left-color: #66a6ff;
 }
 ::selection{
-  background: rgba(243, 71, 75, .8);
+  background: #66a6ff;
 }
 ::-moz-selection{
-  background: rgba(243, 71, 75, .8);
+  background: #66a6ff;
 }
 .page-title:before {
-  background: rgba(243, 71, 75, .9);
+  background: #66a6ff;
 }
 
 .go-top{
-  background-color: #ff9800;
+  background-color: #66a6ff;
 }
 
 
@@ -175,9 +175,9 @@ blockquote {
 body #header.gradient-header,
 .bgcolor-major-gradient,
 .footer-logo.bgcolor-major-gradient{
-  background-image: -moz-linear-gradient( 135deg, rgb(243,71,75) 0%, rgb(255,152,0) 100%);
-  background-image: -webkit-linear-gradient( 135deg, rgb(243,71,75) 0%, rgb(255,152,0) 100%);
-  background-image: -ms-linear-gradient( 135deg, rgb(243,71,75) 0%, rgb(255,152,0) 100%);
+  background-image: -moz-linear-gradient( 135deg, #66a6ff 0%, #89f7fe 100%);
+  background-image: -webkit-linear-gradient( 135deg, #66a6ff 0%, #89f7fe 100%);
+  background-image: -ms-linear-gradient( 135deg, #66a6ff 0%, #89f7fe 100%);
 }
 /*Gradient with opacity*/
 .bgcolor-major-gradient-overlay,
@@ -186,9 +186,9 @@ body #header.gradient-header,
 .featured-posts-slider .customnav>span:hover,
 .portfolio-items-v2.portfolio-items .item figure .caption,
 .owl-controls .owl-nav>div:hover{
-	background-image: -moz-linear-gradient( 135deg, rgba(255, 122, 43, 0.94) 0%, rgb(228, 49, 114) 100%);
-	background-image: -webkit-linear-gradient( 135deg, rgba(255, 122, 43, 0.94) 0%, rgb(228, 49, 114) 100%);
-	background-image: -ms-linear-gradient( 135deg, rgba(255, 122, 43, 0.94) 0%, rgb(228, 49, 114) 100%);
+	background-image: -moz-linear-gradient( 135deg, #89f7fe 0%, #66a6ff 100%);
+	background-image: -webkit-linear-gradient( 135deg, #89f7fe 0%, #66a6ff 100%);
+	background-image: -ms-linear-gradient( 135deg, #89f7fe 0%, #66a6ff 100%);
 }
 
 .bgcolor-major-gradient-overlay2{
@@ -198,7 +198,7 @@ body #header.gradient-header,
 }
 
 .bgcolor-major-gradient-overlay3{
-	background-image: -moz-linear-gradient( 1350deg, rgb(234, 66, 101) 0%, rgb(250, 115, 65) 100%);
-	background-image: -webkit-linear-gradient( 1350deg, rgb(234, 66, 101) 0%, rgb(250, 115, 65) 100%);
-	background-image: -ms-linear-gradient( 1350deg, rgb(234, 66, 101) 0%, rgb(250, 115, 65) 100%);
+	background-image: -moz-linear-gradient( 1350deg, #66a6ff 0%, #89f7fe 100%);
+	background-image: -webkit-linear-gradient( 1350deg, #66a6ff 0%, #89f7fe 100%);
+	background-image: -ms-linear-gradient( 1350deg, #66a6ff 0%, #89f7fe 100%);
 }
