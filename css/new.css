@@ -7,13 +7,18 @@
 }
 
 #about-us{
-    font-size: 28px;
+    font-size: 25px;
     line-height: 50px;
 }
 
 #recent,#newsletter,.pricing{
     display: none;
 }
+
+.details p{
+    color: #696969;
+}
+
 
 .contact-heading{
     margin-top: -10%;
