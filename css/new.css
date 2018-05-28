@@ -75,6 +75,10 @@
     height: 300px;
 }
 
+.ybtn-purple{
+    background-color:#66a6ff ;
+}
+
 #footer{
     background-color: #66a6ff;
 }
@@ -95,10 +99,6 @@
     }
     #mobile{
         display: block;
-    }
-
-    #top-content{
-        padding-top: 0;
     }
 
     .navbar-toggle {
