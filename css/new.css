@@ -1,0 +1,209 @@
+.logo-holder .logo{
+    background-image: url(../images/fwd/logo.png);
+    background-size: 80px 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.support-button-holder a.support-button{
+    color:#66a6ff !important;
+}
+
+#page-head .page-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.services-see-more{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.modal-dialog{
+    width:90%;
+}
+.modal-content{
+    height:90vh;
+}
+.modal-body{
+    height:75vh;
+    overflow: scroll;
+}
+.close{
+    font-size: 35px;
+}
+.modal-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.modal-body p {
+    padding: 20px 80px;
+    font-size: 20px;
+}
+
+.nurse ul ,.audio ul{
+    padding: 20px 30px;
+    font-size:18px;
+}
+.nurse ul li,.audio ul li{
+    padding: 10px 30px;
+}
+
+.occup ,.audio{
+    padding: 5px 55px;
+}
+
+.occup p,.audio p {
+    padding: 20px 20px;
+}
+
+.occup ul{
+    padding: 0px 30px;
+    font-size: 20px;
+}
+.occup ul li{
+    padding: 10px 30px;
+}
+
+
+.service-box .service-icon img{
+    height: 300px;
+}
+
+#footer{
+    background-color: #66a6ff;
+}
+
+#footer ul.footer-menu li a{
+    text-transform:capitalize;
+    font-size: 15px;
+    font-weight:500;
+}
+
+#mobile{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    #laptop{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }
+
+    #top-content{
+        padding-top: 0;
+    }
+
+    .navbar-toggle {
+        border: none;
+        background: transparent !important;
+    }
+
+    .navbar-toggle:hover {
+        background: transparent !important;
+    }
+
+    .navbar-toggle .icon-bar {
+        font-size: 100px;
+        background: white !important;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+
+    .navbar-toggle.collapsed > .top-bar {
+        transform: rotate(0);
+    }
+
+    .navbar-toggle.collapsed > .middle-bar {
+        opacity: 1;
+    }
+
+    .navbar-toggle.collapsed > .bottom-bar {
+        transform: rotate(0);
+    }
+
+    .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+
+    .middle-bar {
+        opacity: 0;
+    }
+
+    .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+
+
+    #info .info-text{
+        font-size: 17px;
+        padding:2px 0;
+    }
+
+    .modal-body p{
+        font-size: 17px;
+        padding:10px 1px;
+    }
+    .modal-body h3{
+        font-size:20px;
+        padding: 2px 17px;
+    }
+
+    .nurse ul{
+        padding:10px 15px;
+        font-size:18px;
+    }
+    .nurse ul li{
+        padding: 10px 5px;
+    }
+
+    .occup ,.audio{
+        padding: 5px 0;
+    }
+
+    .occup p {
+        padding: 20px 10px;
+    }
+
+    .occup ul{
+        padding: 0 10px;
+        font-size: 17px;
+    }
+    .occup ul li{
+        padding: 10px 0;
+    }
+
+    .audio p{
+        padding: 20px 15px;
+    }
+    .speech{
+        margin-left: 0;
+    }
+    .audio ul{
+        padding:10px 20px 10px 25px;
+        font-size: 17px;
+    }
+
+    .audio ul li{
+        padding:10px 15px;
+
+    }
+
+    #more-features .mfeature-box{
+        min-height: 100px;
+    }
+
+    #footer h4{
+        text-align: center;
+    }
+
+}
