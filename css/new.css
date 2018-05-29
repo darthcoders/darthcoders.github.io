@@ -93,6 +93,10 @@
     display: none;
 }
 
+#header-holder.turquoise-header{
+    background-color: #66a6ff;
+}
+
 @media screen and (max-width: 800px){
     #laptop{
         display: none;
