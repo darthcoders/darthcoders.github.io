@@ -1,6 +1,7 @@
-.logo-holder .logo{
-    background-image: url(../images/fwd/logo.png);
-    background-size: 80px 80px;
+.logo-holder {
+
+    padding-top: 0;
+    text-transform: capitalize;
 }
 
 .navbar-default .navbar-nav>li>a {
