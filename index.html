@@ -9,7 +9,7 @@
   <link href=favicon-32x32.png rel=icon sizes=32x32 type=image/png>
   <link href=favicon-16x16.png rel=icon sizes=16x16 type=image/png>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
     @font-face{
@@ -519,6 +519,11 @@
       .hidden-lg{
         display:none!important}
     }
+    @media (max-width: 700px) {
+      .navbar-default .navbar-toggle .icon-bar{
+        background-color: #00b1cd !important;
+      }
+    }
   </style>
   <body data-gr-c-s-loaded=true>
     <main>
@@ -1004,11 +1009,52 @@
         </footer>
       </div>
     </main>
+  </body>
+<script>
+    ! function(t) {
+        "use strict";
+        t.loadCSS || (t.loadCSS = function() {});
+        var e = loadCSS.relpreload = {};
+        if (e.support = function() {
+                var e;
+                try {
+                    e = t.document.createElement("link").relList.supports("preload")
+                } catch (t) {
+                    e = !1
+                }
+                return function() {
+                    return e
+                }
+            }(), e.bindMediaToggle = function(t) {
+                function e() {
+                    t.media = a
+                }
+                var a = t.media || "all";
+                t.addEventListener ? t.addEventListener("load", e) : t.attachEvent && t.attachEvent("onload", e), setTimeout(function() {
+                    t.rel = "stylesheet", t.media = "only x"
+                }), setTimeout(e, 3e3)
+            }, e.poly = function() {
+                if (!e.support())
+                    for (var a = t.document.getElementsByTagName("link"), n = 0; n < a.length; n++) {
+                        var o = a[n];
+                        "preload" !== o.rel || "style" !== o.getAttribute("as") || o.getAttribute("data-loadcss") || (o.setAttribute("data-loadcss", !0), e.bindMediaToggle(o))
+                    }
+            }, !e.support()) {
+            e.poly();
+            var a = t.setInterval(e.poly, 500);
+            t.addEventListener ? t.addEventListener("load", function() {
+                e.poly(), t.clearInterval(a)
+            }) : t.attachEvent && t.attachEvent("onload", function() {
+                e.poly(), t.clearInterval(a)
+            })
+        }
+        "undefined" != typeof exports ? exports.loadCSS = loadCSS : t.loadCSS = loadCSS
+    }("undefined" != typeof global ? global : this)
+</script>
     <link href=css/all.css rel=preload as=style onload='this.rel="stylesheet"'>
 
     <script src=js/custom.min.js defer>
     </script>
     <link rel="stylesheet" href="css/new.css">
 
-  </body>
 </html>
