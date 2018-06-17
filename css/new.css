@@ -99,6 +99,22 @@
     background-color: #66a6ff;
 }
 
+
+.contact-content{
+    height: 60vh;
+    background-color: whitesmoke;
+}
+
+.contact-dialog{
+    width:50%;
+}
+.contactform{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45vh;
+}
+
 @media screen and (max-width: 800px){
     #laptop{
         display: none;
@@ -210,6 +226,22 @@
 
     #footer h4{
         text-align: center;
+    }
+
+    .contact-content{
+        height: 70vh;
+        background-color: whitesmoke;
+    }
+
+    .contact-dialog{
+        width:100%;
+        margin: 10px 0;
+    }
+    .contactform{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:54vh;
     }
 
 }

@@ -631,7 +631,7 @@
                   Home nursing, Physiotherapy, Diagnostics at Home, Medicine delivery at home, Occupational Therapy,
                   Speech Therapy, Audio Therapy, Medical Equipment Rental & sales, and also Ambulance services.
                 </div>
-                <a href=#foot class="ybtn ybtn-purple ybtn-shadow">Contact us
+                <a href=#foot class="ybtn ybtn-purple ybtn-shadow" data-toggle="modal" data-target="#contactform">Contact us
                 </a>
               </div>
             </div>
@@ -843,6 +843,52 @@
           </div>
         </div>
 
+        <div id="contactform" class="modal fade" role="dialog">
+          <div class="modal-dialog contact-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content contact-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Contact Us</h4>
+              </div>
+              <div class="modal-body contactform">
+                <form class="form-horizontal" role="form" method="POST" action="https://formspree.io/saravanansmart13@gmail.com">
+                  <br>
+                  <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <label for="mobile-num" class="col-sm-2 control-label">Mobile</label>
+                    <div class="col-sm-10">
+                      <input type="number" class="form-control" id="mobile-num" placeholder="Mobile Number">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="col-sm-offset-5 col-sm-7">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
         <div id="foot"></div>
 
         <footer id="mobile">
@@ -881,7 +927,7 @@
                         <!--<a href=blog.html>Blog-->
                         <!--</a>-->
                       <li>
-                        <a href=#foot>Contact us
+                        <a href="#" data-toggle="modal" data-target="#contactform">Contact us
                         </a>
                     </ul>
                   </div>
@@ -962,7 +1008,7 @@
                         <!--<a href=blog.html>Blog-->
                         <!--</a>-->
                       <li>
-                        <a href=#foot>Contact us
+                        <a href="#" data-toggle="modal" data-target="#contactform">Contact us
                         </a>
                     </ul>
                   </div>
