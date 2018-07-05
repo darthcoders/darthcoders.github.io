@@ -4,6 +4,10 @@
     text-transform: capitalize;
 }
 
+.navbar{
+    position: fixed;
+}
+
 .navbar-default .navbar-nav>li>a {
     text-transform: uppercase;
     font-weight: 600;
@@ -121,6 +125,10 @@
     }
     #mobile{
         display: block;
+    }
+
+    .container-nav .row .col-md-12 .navbar-collapse{
+        min-height:420px;
     }
 
     .navbar-toggle {

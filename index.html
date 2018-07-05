@@ -525,6 +525,31 @@
       }
     }
   </style>
+
+
+
+<style>
+  .logo-holder h2{
+    color: white !important;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color: white !important;
+  }
+  .navbar .container-fluid{
+    background-color: #66a6ff !important;
+  }
+  #support-btn a{
+    background-color: white;
+    color: #66a6ff !important;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color: white !important;
+  }
+
+</style>
+
+
+
   <body data-gr-c-s-loaded=true>
     <main>
       <div id=main-content>
@@ -536,8 +561,8 @@
             <!--</video>-->
             <img src="images/bg1.jpg" class="videobg" alt="">
           </div>
-          <nav class="navbar navbar-default navbar-full"id=nav>
-            <div class=container-fluid>
+          <nav class="navbar navbar-default navbar-full navbar-fixed-top"id=nav>
+            <div class=container-fluid style="background-color: white" id="nav-cont">
               <div class="container container-nav">
                 <div class=row>
                   <div class=col-md-12>
@@ -557,7 +582,7 @@
                         <span class="icon-bar bottom-bar"></span>
                       </button>
                       <a href=index.html class=logo-holder>
-                        <h2 style="color: #00b1cd"><strong>Panacea</strong></h2>
+                        <h2 style="color: #00b1cd;margin-top: 15px;"><strong>Panacea</strong></h2>
                       </a>
                     </div>
                     <div class="collapse navbar-collapse"id=bs aria-expanded=true role=main style=height:1px>
@@ -572,7 +597,7 @@
                         <li>
                           <a href=#foot>Contact
                           </a>
-                        <li class="support-button-holder support-dropdown">
+                        <li class="support-button-holder support-dropdown" id="support-btn">
                           <a href=# class=support-button>Support
                           </a>
                           <ul class=dropdown-menu>
